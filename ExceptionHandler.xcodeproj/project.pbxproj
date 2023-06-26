@@ -17,6 +17,7 @@
 		E665F6DD2A4822C400A3F02D /* ExceptionHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E665F6DC2A4822C400A3F02D /* ExceptionHandlerTests.m */; };
 		E665F6E72A4822C400A3F02D /* ExceptionHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E665F6E62A4822C400A3F02D /* ExceptionHandlerUITests.m */; };
 		E665F6E92A4822C400A3F02D /* ExceptionHandlerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E665F6E82A4822C400A3F02D /* ExceptionHandlerUITestsLaunchTests.m */; };
+		E665F6F72A4822E400A3F02D /* ExceptionHanlder.mm in Sources */ = {isa = PBXBuildFile; fileRef = E665F6F62A4822E400A3F02D /* ExceptionHanlder.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E665F6E22A4822C400A3F02D /* ExceptionHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExceptionHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E665F6E62A4822C400A3F02D /* ExceptionHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionHandlerUITests.m; sourceTree = "<group>"; };
 		E665F6E82A4822C400A3F02D /* ExceptionHandlerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionHandlerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E665F6F52A4822E400A3F02D /* ExceptionHanlder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionHanlder.h; sourceTree = "<group>"; };
+		E665F6F62A4822E400A3F02D /* ExceptionHanlder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExceptionHanlder.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				E665F6CE2A4822C400A3F02D /* LaunchScreen.storyboard */,
 				E665F6D12A4822C400A3F02D /* Info.plist */,
 				E665F6D22A4822C400A3F02D /* main.m */,
+				E665F6F52A4822E400A3F02D /* ExceptionHanlder.h */,
+				E665F6F62A4822E400A3F02D /* ExceptionHanlder.mm */,
 			);
 			path = ExceptionHandler;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E665F6C82A4822C300A3F02D /* ViewController.m in Sources */,
+				E665F6F72A4822E400A3F02D /* ExceptionHanlder.mm in Sources */,
 				E665F6C22A4822C300A3F02D /* AppDelegate.m in Sources */,
 				E665F6D32A4822C400A3F02D /* main.m in Sources */,
 				E665F6C52A4822C300A3F02D /* SceneDelegate.m in Sources */,
